@@ -1,0 +1,85 @@
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  margin-left: 4em;
+}
+
+.form > .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > .input-group > label {
+  margin-bottom: 0.6em;
+  margin-top: 1em;
+}
+
+.form > .input-group > input {
+  line-height: 1.4em;
+  padding: 0.6em;
+}
+
+.form > p {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 1.2em 0;
+}
+
+.form > button.submit-button {
+  background-color: deepskyblue;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  width: 64px;
+  border-radius: 0.4em;
+  transition: all 100ms ease-in-out;
+}
+
+.form > button.submit-button:disabled {
+  background-color: #999;
+  opacity: 0.4;
+}
+
+.form > .input-group > span {
+  color: red;
+  font-size: 0.8em;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.cart-item-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 80px;
+}
+
+.number-input {
+  width: 80px;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.cart-panel {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2.4em;
+}
